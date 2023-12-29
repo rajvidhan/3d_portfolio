@@ -50,7 +50,7 @@ const ProjectCard = ({
         </div>
       </Tilt>
       
-      <button onClick={() => window.open(source_code_link, "_blank")} className=" my-4 flex flex-wrap justify-center items-center   bg-white  text-tertiary font-bold hover:bg-thistle hover:text-white   p-3 rounded-xl">
+      <button onClick={() => window.open(source_code_link, "_blank")} className=" my-4 flex flex-wrap transition duration-0 hover:duration-700 border-b-[0.5rem] border-thistle hover:border-white justify-center items-center   bg-white  text-tertiary font-bold hover:bg-thistle hover:text-white   p-3 rounded-xl">
               Go To WEB App
             </button>
     </motion.div>
