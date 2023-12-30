@@ -16,8 +16,48 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handlechange = (e) => {};
-  const handlesubmit = (e) => {};
+  const handlechange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
+
+
+  const handleSubmit = (e) => {
+    console.log("hello vidhan");
+
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_ntas554",
+        "template_d4huwuh",
+        {
+          from_name: form.name,
+          to_name: "vidhan",
+          from_email: form.email,
+          to_email: "lochansharma0902@gmail.com",
+          message: form.message,
+        },
+        "DzLAeSLJC1BMfPBVz"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thank you. I will get back to you as soon as possible.");
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+          alert("something went wrong");
+        }
+      );
+  };
   return (
     <div
       className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10
@@ -31,11 +71,7 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>contact.</h3>
 
         {/* //creating from  */}
-        <form
-          ref={formRef}
-          onSubmit={handlesubmit}
-          className="m-12 flex  flex-col gap-8"
-        >
+        <form ref={formRef} onSubmit={handleSubmit} className="m-12 flex  flex-col gap-8">
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
             <input
@@ -75,7 +111,7 @@ const Contact = () => {
             className="bg-tertiary py-3 px-8 outline-none 
         w-fit text-white rounded-xl font-bold shadow-xl shadow-black"
           >
-            {loading ? "Sending" : "Send"}
+            {loading ? "Sending..." : "Send"}
           </button>
         </form>
       </motion.div>
