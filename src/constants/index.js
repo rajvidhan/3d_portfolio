@@ -186,16 +186,35 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Password Generator",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A password generator is a software tool that creates random or customized passwords for users. It helps users create strong passwords that provide greater security for a given type of access.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        
+      ],
+      image: carrent,
+      gitlink:"https://github.com/rajvidhan/PASSWORD-GENERATOR-",
+      source_code_link: "https://demo-phi-drab.vercel.app/",
+    },
+    {
+      name: "3D Portfolio",
+      description:
+        "My portfolio, built with React and Three.js, showcases my work using , interactive experiences, and seamless navigation. It  ensuring a visually engaging and responsive presentation across devices.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Three js",
           color: "green-text-gradient",
         },
         {
@@ -203,49 +222,30 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
       image: jobit,
+      gitlink:"https://github.com/rajvidhan/3d_portfolio",
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Eduction Website",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "I leveraged the power of router technology to create a seamless and intuitive user experience. By implementing a router framework such as React Router or Vue Router.",
       tags: [
         {
-          name: "nextjs",
+          name: "React js ",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Node js",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "mongoDB",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
+      gitlink:"https://github.com/rajvidhan/Eucation-Website",
       source_code_link: "https://github.com/",
     },
   ];
