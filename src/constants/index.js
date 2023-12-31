@@ -228,7 +228,7 @@ import {
       ],
       image: jobit,
       gitlink:"https://github.com/rajvidhan/3d_portfolio",
-      source_code_link: "https://github.com/",
+      source_code_link: "https://3d-portfolio-hello.vercel.app/",
     },
     {
       name: "Eduction Website",
