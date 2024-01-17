@@ -250,8 +250,38 @@ import {
       ],
       image: tripguide,
       gitlink:"https://github.com/rajvidhan/Eucation-Website",
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rajvidhan/Eucation-Website",
     },
+    
+      {
+        name: "Chat App",
+        description:
+          "This is real time chat app,Chatting app allows you to communicate with your customers in web chat rooms. It enables you to send and receive messages. Chatting apps make it easier, simpler, and faster to connect with everyone and it is also easy to use. ",
+
+        tags: [
+          {
+            name: "React js ",
+            color: "blue-text-gradient",
+          },
+         
+          {
+            name: "Node js",
+            color: "green-text-gradient",
+          },
+          {
+            name: "mongoDB",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "Socket ",
+            color: "blue-text-gradient",
+          },
+        ],
+        image: tripguide,
+        gitlink:"https://github.com/rajvidhan/Eucation-Website",
+        source_code_link: "https://github.com/rajvidhan/Eucation-Website",
+      },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
