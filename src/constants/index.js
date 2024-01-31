@@ -116,9 +116,9 @@ import {
       iconBg: "#383E56",
       
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Develop new user-facing features using React.js",
+        'Ensure the technical feasibility of UI/UX designs',   
+        "Collaborate with other team members and stakeholders to translate requirements into high-quality code",
        
       ],
     },
@@ -129,8 +129,8 @@ import {
       iconBg: "#E6DEDD",
       
       points: [
-        "In the backend i use node js.",
-        "i have alse knowledge to find the erorrs throw debugging."
+        "Strong proficiency in Node.js, Express.js, and MongoDB",
+        "Familiarity with front-end technologies such as React.js"
       ],
     },
     {
@@ -153,9 +153,9 @@ import {
       iconBg: "#E6DEDD",
       
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Strong proficiency in Node.js, Express.js, and MongoDB",
+        "Knowledge of authentication and authorization mechanisms",
+        "Familiarity with front-end technologies such as React.js",
         
       ],
     },
