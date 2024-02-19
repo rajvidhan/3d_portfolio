@@ -4,17 +4,22 @@ import {
     creator,
     web,
     javascript,
+    reactnative,
     typescript,
     html,
+    chatapp,
     css,
+    blogapp,
     reactjs,
     redux,
+    sql,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
     docker,
+    socket,
     full,
     react,
     backend1,
@@ -46,11 +51,11 @@ import {
   
  const services = [
     {
-      title: "Web✨ Developer",
+      title: "MERN Stack✨Developer",
       icon: web,
     },
     {
-      title: "React✨  Developer",
+      title: "React Native✨",
       icon: mobile,
     },
     {
@@ -58,7 +63,7 @@ import {
       icon: backend,
     },
     {
-      title: "Full Stack✨ developer",
+      title: "Web✨developer",
       icon: creator,
     },
   ];
@@ -82,6 +87,10 @@ import {
       icon: reactjs,
     },
     {
+      name: "React Native ",
+      icon:reactnative,
+    },  
+    {
       name: "Redux Toolkit",
       icon: redux,
     },
@@ -98,9 +107,18 @@ import {
       icon: mongodb,
     },
     {
+      name: "SQL",
+      icon: sql,
+    },
+    {
       name: "Three JS",
       icon: threejs,
     },
+    {
+      name: "socket",
+      icon: socket,
+    },
+
     {
       name: "git",
       icon: git,
@@ -110,104 +128,59 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
+      title: "React.js or Native",
       
       icon:react,
       iconBg: "#383E56",
       
       points: [
-        "Develop new user-facing features using React.js",
-        'Ensure the technical feasibility of UI/UX designs',   
-        "Collaborate with other team members and stakeholders to translate requirements into high-quality code",
-       
+        "Develop new user-facing features using React.js or Native",
+        'I have 8 months of experience in react js.',   
+        "Skilled in developing responsive and intuitive user interfaces for web and mobile applications using React and React Native frameworks",       
       ],
     },
     {
-      title: "Backend Developer",
+      title: "MERN stack Developer",
       
       icon:backend1,
       iconBg: "#E6DEDD",
       
       points: [
-        "Strong proficiency in Node.js, Express.js, and MongoDB",
-        "Familiarity with front-end technologies such as React.js"
+        "Proficient in building scalable and robust web applications using the MERN (MongoDB, Express.js, React.js, Node.js) stack",
+        "Skilled in setting up RESTful APIs, implementing authentication and authorization mechanisms, and optimizing performance for high-traffic applications."
+        
       ],
     },
     {
-      title: "Web Developer",
+      title: "Database Management",
      
       icon:web1,
       iconBg: "#383E56",
      
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        " Experienced in working with both SQL and NoSQL databases, including MongoDB for flexible data storage and SQL databases for relational data management.",
        
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+       
         
       ],
     },
     {
-      title: "Full stack Developer",
+      title: "Backend",
       
       icon:full,
       iconBg: "#E6DEDD",
       
       points: [
-        "Strong proficiency in Node.js, Express.js, and MongoDB",
-        "Knowledge of authentication and authorization mechanisms",
-        "Familiarity with front-end technologies such as React.js",
+        "Strong understanding of server-side programming concepts and backend architecture. Experienced in implementing authenticate/authorization mechanisms, and data validation/validation using middleware and server-side frameworks.",
+       
         
       ],
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
+ 
   const projects = [
-    {
-      name: "Password Generator",
-      description:
-        "A password generator is a software tool that creates random or customized passwords for users. It helps users create strong passwords that provide greater security for a given type of access.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "green-text-gradient",
-        },
-        
-      ],
-      image: carrent,
-      gitlink:"https://github.com/rajvidhan/PASSWORD-GENERATOR-",
-      source_code_link: "https://demo-phi-drab.vercel.app/",
-    },
+   
     {
       name: "3D Portfolio",
       description:
@@ -233,7 +206,7 @@ import {
     {
       name: "Eduction Website",
       description:
-        "I leveraged the power of router technology to create a seamless and intuitive user experience. By implementing a router framework such as React Router or Vue Router.",
+        "It's an Education Website,In this project, instructors have the capability to create courses, while students can conveniently access and purchase them using the Razorpay payment gateway. Through an intuitive interface, instructors can upload course content, set pricing, and manage course details. Students navigate the platform to discover courses, view course previews, and make secure payments via Razorpay to enroll in their desired courses. This seamless integration of course creation and payment processing enhances the user experience, facilitating efficient learning and monetization for instructors.",
       tags: [
         {
           name: "React js ",
@@ -247,13 +220,88 @@ import {
           name: "mongoDB",
           color: "pink-text-gradient",
         },
+        {
+          name: "express js ",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OTP Verification ",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Mail-sending",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Authentication",
+          color: "pink-text-gradient",
+        },
       ],
       image: tripguide,
       gitlink:"https://github.com/rajvidhan/Eucation-Website",
       source_code_link: "https://github.com/rajvidhan/Eucation-Website",
     },
-    
+    {
+      name: "Blog Web",
+      description:
+        "MERN Stack Blog App,Built on the powerful combination of MongoDB, Express.js, React.js, and Node.js, This platform offers a modern and intuitive interface for bloggers of all levels. From creating captivating content to engaging with your audience, our app streamlines the entire blogging experience. Explore a range of features including rich text editing, user authentication, comment moderation, and real-time updates. ",
+      tags: [
+        {
+          name: "React js ",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "flow-bitereact",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:blogapp,
+      gitlink:"https://github.com/rajvidhan/MernBlog",
+      source_code_link: "https://github.com/rajvidhan/MernBlog",
+    },
+    {
+      name: "Chat Web",
+      description:
+        "MERN Stack Chat App with Socket.io integration – your ultimate platform for seamless and real-time messaging! Powered by MongoDB, Express.js, React.js, and Node.js.With Socket.io, experience lightning-fast messaging, instant notifications, and real-time updates, ensuring smooth communication at every step. ",
+      tags: [
+        {
+          name: "React js ",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Socket io",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:chatapp,
+      gitlink:"https://github.com/rajvidhan/Chating_Website",
+      source_code_link: "https://github.com/rajvidhan/Chating_Website",
+    },
     
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
-    <Tilt className="xs:w-[250px] w-full">
+    <Tilt className="xs:w-[250px] w-full  ">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
         className="w-full shadow-card rounded-[20px] p-[1px] green-pink-gradient"
