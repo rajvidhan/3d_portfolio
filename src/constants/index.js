@@ -181,30 +181,9 @@ import {
  
   const projects = [
    
+   
     {
-      name: "3D Portfolio",
-      description:
-        "My portfolio, built with React and Three.js, showcases my work using , interactive experiences, and seamless navigation. It  ensuring a visually engaging and responsive presentation across devices.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Three js",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      gitlink:"https://github.com/rajvidhan/3d_portfolio",
-      source_code_link: "https://3d-portfolio-hello.vercel.app/",
-    },
-    {
-      name: "Eduction Website",
+      name: "DynamicEd: Interative Education Platform",
       description:
         "It's an Education Website,In this project, instructors have the capability to create courses, while students can conveniently access and purchase them using the Razorpay payment gateway. Through an intuitive interface, instructors can upload course content, set pricing, and manage course details. Students navigate the platform to discover courses, view course previews, and make secure payments via Razorpay to enroll in their desired courses. This seamless integration of course creation and payment processing enhances the user experience, facilitating efficient learning and monetization for instructors.",
       tags: [
@@ -238,11 +217,11 @@ import {
         },
       ],
       image: tripguide,
-      gitlink:"https://github.com/rajvidhan/Eucation-Website",
-      source_code_link: "https://github.com/rajvidhan/Eucation-Website",
+      gitlink:"https://github.com/rajvidhan/Education-Mern-Web",
+      source_code_link: "https://education-mern-web.vercel.app/",
     },
     {
-      name: "Blog Web",
+      name: "BlogWeb: Interactive Blogging Platform",
       description:
         "MERN Stack Blog App,Built on the powerful combination of MongoDB, Express.js, React.js, and Node.js, This platform offers a modern and intuitive interface for bloggers of all levels. From creating captivating content to engaging with your audience, our app streamlines the entire blogging experience. Explore a range of features including rich text editing, user authentication, comment moderation, and real-time updates. ",
       tags: [
@@ -268,11 +247,11 @@ import {
         },
       ],
       image:blogapp,
-      gitlink:"https://github.com/rajvidhan/MernBlog",
-      source_code_link: "https://github.com/rajvidhan/MernBlog",
+      gitlink:"https://github.com/rajvidhan/Vidhan_blog",
+      source_code_link: "https://vidhan-blog-1.onrender.com/",
     },
     {
-      name: "Chat Web",
+      name: "Real-Time Chat Application: Building Seamless Communication with MERN Stack and Socket.IO",
       description:
         "MERN Stack Chat App with Socket.io integration – your ultimate platform for seamless and real-time messaging! Powered by MongoDB, Express.js, React.js, and Node.js.With Socket.io, experience lightning-fast messaging, instant notifications, and real-time updates, ensuring smooth communication at every step. ",
       tags: [
