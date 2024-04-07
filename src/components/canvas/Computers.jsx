@@ -44,6 +44,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
+      className={`${isMobile ? "hidden":"block"}`}
       frameloop="demand"
       shadows
       dpr={[1, 2]}
